@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container
+    {
+        height: 100%;
+        width: 100%;
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box
+    {
+        height: 40%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: aqua;
+        background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+        background-size: cover;
+    }
+
+    .title
+    {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #count
+    {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .button
+    {
+        height: 7%;
+        width: 40%;
+        border: 0.1px solid black;
+        border-radius: 10px;
+        background-color: azure;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 20px;
+    }
+
+        .button:hover
+        {
+            background-color:rgb(183, 48, 48);
+            color: black;
+            border: 0.1px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 500;
+            margin: 20px;
+        }
+
+                   .save-btn {
+                       height: 7%;
+                       width: 40%;
+                       border: 0.1px solid black;
+                       border-radius: 10px;
+                       background-color: azure;
+                       cursor: pointer;
+                       font-size: 13px;
+                       font-weight: 500;
+                       margin: 20px;
+                   }
+        
+                   .save-btn:hover {
+                       background-color: rgb(140, 255, 0);
+                       color: black;
+                       border: 0.1px solid black;
+                       border-radius: 10px;
+                       cursor: pointer;
+                       font-size: 13px;
+                       font-weight: 500;
+                       margin: 20px;
+                   }
+
+                   
+
+.save
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    color: aliceblue;
+}
+
+.previous
+{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 20px;
+        color: aliceblue;
+}
+  .reset{
+      height: 7%;
+      width: 40%;
+      border: 0.1px solid black;
+      border-radius: 10px;
+      background-color: azure;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      margin: 20px;
+  }
+
+  .reset:hover {
+      background-color: rgb(140, 255, 0);
+      color: black;
+      border: 0.1px solid black;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      margin: 20px;
+  }
